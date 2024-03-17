@@ -34,6 +34,11 @@ title: Muhammad Arfat Portfolio
 plugins:
   - jekyll-feed
 
+# variables
+
+github_username: arfatkh
+linkedin_username: arfatkh
+email: arrfat@proton.me
 
 
 # Exclude from processing.
