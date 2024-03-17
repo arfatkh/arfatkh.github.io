@@ -1,21 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-    </header>
+---
+layout: default
+title: Arfat
+style : dark
+---
+<!-- Add your site or app content here -->
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/space.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Hello, I'm<br>
+                <span id="typed-strings">
+                  <span>Muhammad Arfat</span>
+                  <span>a Computer Scientist</span>
+                  <span>a Backend Engineer</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <main>
-        <!-- Your content goes here -->
-    </main>
 
-    <footer>
-        <p>&copy; 2022 Muhammad Arfat. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        type();
+        movingBackgroundImage();
+    });
+</script>
+
