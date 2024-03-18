@@ -1,28 +1,55 @@
 ---
 permalink: /404.html
 layout: default
+style: dark
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
+<style type="text/css" >
+  .container-this {
+    margin: 20% auto;
     max-width: 600px;
     text-align: center;
   }
-  h1 {
-    margin: 30px 0;
+  h1,h2 {
+    margin: 5% 5%;
     font-size: 4em;
     line-height: 1;
     letter-spacing: -1px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
   }
+  .btn {
+    margin-top: 10%;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-width: 2px;
+    font-weight: bold;
+
+  }
+  
+
+  @media (min-width: 768px){
+    .hero-full-container {
+      background-position:right;
+    }
+  }
+
 </style>
 
 <br>
 <br>
 
-<div class="container">
-  <h1>404</h1>
+<body class="hero-full-container"  style="background-image: url(/assets/images/space2.jpg);background-position:center 50% top 20%;background-repeat: no-repeat;background-size: cover;">
+  <div class="container-this">
+    <!-- <h1>404</h1> -->
+  
+    <!-- <p><strong>Page not found :(</strong></p>
+    <p>The requested page could not be found.</p>
+    <p><a href="{{ site.baseurl }}/" class="btn btn-default btn-lg">Go to the home page </a></p> -->
+    <h1 >&lt;/404&gt;	</h1>
+    <h2 >Are you lost? </br>Space Traveler??</h2>
+    <p><a href="{{ site.baseurl }}/" class="btn btn-default btn-lg">Go to the home page </a></p> 
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+  </div>
+  
+</body>
