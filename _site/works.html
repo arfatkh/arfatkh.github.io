@@ -179,6 +179,52 @@
   </div>
 </div>
 
+<!-- 
+<script>
+
+  //clear body 
+  document.body.innerHTML = '';
+  //show a simple coming soon message
+  document.addEventListener('DOMContentLoaded', function() {
+    var message = 'Coming soon';
+    var messageElement = document.createElement('div');
+    messageElement.style.position = 'fixed';
+    messageElement.style.top = '50%';
+    messageElement.style.left = '50%';
+    messageElement.style.transform = 'translate(-50%, -50%)';
+    messageElement.style.fontSize = '2em';
+    messageElement.style.color = 'white';
+    messageElement.style.backgroundColor = 'black';
+    messageElement.style.padding = '20px';
+    messageElement.style.borderRadius = '10px';
+    messageElement.style.zIndex = '1000';
+    messageElement.innerHTML = message;
+    document.body.appendChild(messageElement);
+
+    //print goint to home page after 3 seconds
+    var count = 3;
+    var countElement = document.createElement('div');
+    countElement.style.position = 'fixed';
+    countElement.style.bottom = '20px';
+    countElement.style.left = '50%';
+    countElement.style.transform = 'translate(-50%, -50%)';
+    countElement.style.fontSize = '1em';
+    countElement.style.color = 'white';
+    countElement.style.backgroundColor = 'black';
+    countElement.style.padding = '10px';
+    countElement.style.borderRadius = '10px';
+    countElement.style.zIndex = '1000';
+    countElement.innerHTML = 'Redirecting in ' + count + ' seconds';
+    document.body.appendChild(countElement);
+
+    //go to the home page after 3 seconds
+    setTimeout(function() {
+      window.location.href = '/';
+    
+    }, 3000);
+
+  });
+</script> -->
 
 
 
