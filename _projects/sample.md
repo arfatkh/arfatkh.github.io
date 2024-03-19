@@ -1,19 +1,19 @@
 ---
-project_title: YTS.io Downloader
-title: YTS.io Downloader
-description: It searches YTS for movies and automatically downloades it along with subtitles
-layout: project
-permalink: /test_pro
+# project_title: YTS.io 
+# title: YTS.io Downloader
+# description: It searches YTS for movies and automatically downloades it along with subtitles
+# layout: project
+# # permalink: /projects/yts_downloader
 
-categories: 
-    - Semester Projects
+# categories: 
+#     - Semester Projects
 
-icons: 
-    - python
+# icons: 
+#     - python
     
 
-image: https://raw.githubusercontent.com/arfatkh/YTSDownloader/main/imgs/demo.gif
-bg_image: 
+# image: https://raw.githubusercontent.com/arfatkh/YTSDownloader/main/imgs/demo.gif
+# bg_image: 
 
 ---
 

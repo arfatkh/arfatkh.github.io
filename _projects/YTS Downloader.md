@@ -3,7 +3,7 @@ project_title: YTS.io Downloader
 title: YTS.io Downloader
 description: It searches YTS for movies and automatically downloades it along with subtitles
 layout: project
-permalink: /yts_scrapper
+permalink: /projects/yts_scraper
 
 categories: 
     - Hobby Projects
