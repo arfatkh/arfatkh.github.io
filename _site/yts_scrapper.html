@@ -17,7 +17,7 @@
   <link href="/assets/ico/favicon.ico" rel="icon">
 
 
-    <title></title>
+    <title>YTS.io Downloader</title>
 
     <link href="/css/default.css" rel="stylesheet"></head>
 
@@ -30,7 +30,7 @@
 <!-- Add your content of header -->
 <header>
   
-  <nav class="navbar  navbar-fixed-top navbar-inverse">
+  <nav class="navbar  navbar-fixed-top navbar-default">
   
     <div class="container">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
@@ -54,55 +54,66 @@
   </nav>
 </header>
 
-<style type="text/css" >
-  .container-this {
-    margin: 20% auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1,h2 {
-    margin: 5% 5%;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-    color: aliceblue;
-    text-shadow: 2px 2px 4px #000000;
-  }
-  .btn {
-    margin-top: 10%;
-    color: aliceblue;
-    border-color: aliceblue;
-    border-width: 2px;
-    font-weight: bold;
+<!-- set title as project_title -->
 
-  }
-  
 
-  @media (min-width: 768px){
-    .hero-full-container {
-      background-position:right;
-    }
-  }
 
-</style>
+<div style="margin-top: 19%;" ="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        
+        <img  src="/assets/images/default-project-bg.jpg" class="img-responsive" alt="">
+        
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">YTS.io Downloader</h1>
+          </div>
 
-<br>
-<br>
 
-<body class="hero-full-container"  style="background-image: url(/assets/images/space2.jpg);background-position:center 50% top 20%;background-repeat: no-repeat;background-size: cover;">
-  <div class="container-this">
-    <!-- <h1>404</h1> -->
-  
-    <!-- <p><strong>Page not found :(</strong></p>
-    <p>The requested page could not be found.</p>
-    <p><a href="/" class="btn btn-default btn-lg">Go to the home page </a></p> -->
-    <h1 >&lt;/404&gt;	</h1>
-    <h2 >Are you lost? </br>Space Traveler??</h2>
-    <p><a href="/" class="btn btn-default btn-lg">Go to the home page </a></p> 
+          <p>Personal Project that searches YTS for movies and automatically downloades it along with subtitles</p>
 
+<p>Well In my defence I had ni Idea APIs existed back then…..
+But Web Scrapper it is using multi processing to scrape all pages at once :)
+And And And it was my first project in python so … gimme a break</p>
+
+<p>Cuz i thought its harder to just visit YTS.io</p>
+
+<p><em>Disclaimer : For the GenZ who tries to scrape sites … It might not be legal . Take Permission ( meine ni li thi btw)</em></p>
+
+<p>No Piracy was supported in this project. YTS used for “Educational Purposes Only”</p>
+
+<h3 id="concepts-used">Concepts used:</h3>
+
+<ul>
+  <li>Web Scrapping  [BeautifulSoup4]</li>
+  <li>HTML Requests [requests.py]</li>
+  <li>Graphical User Interface [Using PyQt5 designer]</li>
+  <li>Multi-Threading (debatable ,I know in python its a myth but )[concurrent.futures]</li>
+  <li>Saving User Configuration [configparser]</li>
+  <li>Extracting Subtitles From Zipfiles :)</li>
+</ul>
+
+<h3 id="in-action"><strong>In Action:</strong></h3>
+
+<p><img src="https://raw.githubusercontent.com/arfatkh/YTSDownloader/main/imgs/demo.gif" alt="Demo" /></p>
+
+<p>It downloads the torrent and stores it in the specified folder</p>
+
+
+        </div>
+      </div>
+
+      
+   
+
+    </div>
   </div>
-  
-</body>
+</div>
+
+
+
+
 
 
 
