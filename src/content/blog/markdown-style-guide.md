@@ -7,6 +7,8 @@ heroImage:
   alt: ''
 order: 1
 tags: ["guide"]
+draft: true
+
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.

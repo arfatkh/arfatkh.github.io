@@ -12,7 +12,7 @@ const url = new URL(Astro.request.url);
 			class="title whitespace-nowrap" 
 			href="/"
 			aria-current={url.pathname === "/" ? "page" : false}
-		>{siteConfig.title}</a>
+		>{siteConfig.title}<span class="blinking-cursor">|</span></a>
 	</div>
 
 	<nav 
@@ -92,6 +92,22 @@ const url = new URL(Astro.request.url);
 	.title:after {
 		content:"]";
 		@apply text-bgColor;
+	}
+
+	.blinking-cursor {
+		font-weight: bold;
+		font-size: 1em;
+		color: var(--color-bgColor);
+		animation: blink 1s step-end infinite;
+	}
+
+	@keyframes blink {
+		from, to {
+			visibility: hidden;
+		}
+		50% {
+			visibility: visible;
+		}
 	}
 </style>
 
