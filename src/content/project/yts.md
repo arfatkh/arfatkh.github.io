@@ -3,7 +3,7 @@ title: 'Movie Downloader YTS'
 description: 'It searches YTS for movies and automatically downloades it along with subtitles.'
 pubDate: 'Jul 18 2024'
 # platform: Web
-stack: ['Python','PYQT5']
+stack: ['Python']
 github: https://github.com/arfatkh/YTSDownloader
 order: 1
 
