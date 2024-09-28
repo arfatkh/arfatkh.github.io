@@ -22,8 +22,8 @@
 #   output: true
 #   permalink: /:collection/:title 
 
-title: Muhammad Arfat Portfolio
-# email: your-email@example.com
+title: Muhammad Arfat
+email: email@arfat.me
 # description: >- # this means to ignore newlines until "baseurl:"
 #   Write an awesome description for your new site here. You can edit this
 #   line in _config.yml. It will appear in your document head meta (for
@@ -31,7 +31,6 @@ title: Muhammad Arfat Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "arfat.me" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-# github_username:  jekyll
 
 # # Build settings
 # theme: minima
@@ -48,7 +47,7 @@ collections:
 
 github_username: arfatkh
 linkedin_username: arfatkh
-email_public: ping@arfat.me
+email_public: email@arfat.me
 
 
 # Exclude from processing.
@@ -59,14 +58,14 @@ email_public: ping@arfat.me
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
